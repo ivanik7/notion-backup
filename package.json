@@ -1,0 +1,14 @@
+{
+  "name": "notion-backup",
+  "version": "0.0.1",
+  "description": "Backup all notion data",
+  "scripts": {
+    "notion": "node notion",
+    "delete": "node delete"
+  },
+  "author": "ivanik <ivan170102@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

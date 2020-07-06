@@ -1,0 +1,2 @@
+0 0 * * * cd /app; node notion
+0 1 * * * cd /app; node delete
