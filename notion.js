@@ -49,8 +49,6 @@ const notionExport = async (token, spaceId, exportType) => {
       Cookie: `token_v2=${token};`,
       "Content-Type": "application/json",
     },
-    referrer:
-      "https://www.notion.so/ivanik/53baf79654ea4bc1a4175951fec1087e?v=5c5211edab7e4aa9bcd4db603a4405b3",
     body: JSON.stringify(task),
     method: "POST",
     mode: "cors",
