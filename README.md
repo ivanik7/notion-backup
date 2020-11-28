@@ -6,7 +6,8 @@ This thing require NodeJS to run.
 
 ```bash
 npm i
-EMAIL=mail@exmaple.com -e PASSWORD=kek EXPORT_TYPE=both node notion
+mkdir -p data
+EMAIL=mail@exmaple.com PASSWORD=kek EXPORT_TYPE=both node notion
 ```
 
 You can also use Docker image with this scrip and cron
