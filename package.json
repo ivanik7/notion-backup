@@ -2,6 +2,7 @@
   "name": "notion-backup",
   "version": "0.0.1",
   "description": "Backup all notion data",
+  "main": "notion.js",
   "scripts": {
     "notion": "node notion",
     "delete": "node delete"
